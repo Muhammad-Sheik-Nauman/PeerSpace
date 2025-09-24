@@ -13,9 +13,9 @@ export default function HomePage() {
           <nav className="space-y-2">
             {[
               { icon: Home, label: "Home" },
-              { icon: Search, label: "Explore" },
+
               { icon: Bell, label: "Notifications" },
-              { icon: Mail, label: "Messages" },
+             
               { icon: Bookmark, label: "Bookmarks" },
               { icon: User, label: "Profile" }
             ].map(({ icon: Icon, label }) => (
